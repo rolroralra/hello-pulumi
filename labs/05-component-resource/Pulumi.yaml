@@ -1,0 +1,6 @@
+name: lab05-component-resource
+description: "Lab 05 - ComponentResource 로 재사용 가능한 인프라 모듈 만들기"
+runtime: java
+config:
+  aws:region:
+    value: ap-northeast-2
