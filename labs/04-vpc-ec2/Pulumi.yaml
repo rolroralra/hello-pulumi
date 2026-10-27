@@ -1,0 +1,20 @@
+name: lab04-vpc-ec2
+description: "Lab 04 - VPC 네트워크와 EC2 웹 서버 (데이터 소스 조회, 여러 리소스 연결)"
+runtime: java
+config:
+  aws:region:
+    value: ap-northeast-2
+  instanceType:
+    type: string
+    default: t3.micro
+    description: "EC2 인스턴스 타입"
+  vpcCidr:
+    type: string
+    default: 10.0.0.0/16
+  publicSubnetCidr:
+    type: string
+    default: 10.0.1.0/24
+  allowedHttpCidr:
+    type: string
+    default: 0.0.0.0/0
+    description: "HTTP(80) 접근을 허용할 CIDR. 본인 IP/32 로 좁히는 것을 권장합니다."
