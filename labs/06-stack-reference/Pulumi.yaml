@@ -1,0 +1,12 @@
+name: lab06-stack-reference
+description: "Lab 06 - StackReference 로 다른 스택(Lab 04 네트워크)의 출력값 재사용하기"
+runtime: java
+config:
+  aws:region:
+    value: ap-northeast-2
+  networkStack:
+    type: string
+    description: "참조할 네트워크 스택의 전체 이름 (예: organization/lab04-vpc-ec2/dev)"
+  appPort:
+    type: integer
+    default: 8080
