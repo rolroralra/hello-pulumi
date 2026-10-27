@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Kotlin
+.kotlin/
+
+# OS
+.DS_Store
+
+# Pulumi 로컬 백엔드를 프로젝트 안에 둘 경우
+.pulumi/
+
+# Claude Code 로컬 설정
+.claude/
