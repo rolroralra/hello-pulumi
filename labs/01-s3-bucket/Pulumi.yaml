@@ -1,0 +1,6 @@
+name: lab01-s3-bucket
+description: "Lab 01 - Pulumi + Kotlin 으로 S3 버킷 만들기"
+runtime: java
+config:
+  aws:region:
+    value: ap-northeast-2
