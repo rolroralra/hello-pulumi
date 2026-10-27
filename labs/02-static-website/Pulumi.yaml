@@ -1,0 +1,6 @@
+name: lab02-static-website
+description: "Lab 02 - S3 정적 웹사이트 호스팅 (리소스 의존성과 Output 다루기)"
+runtime: java
+config:
+  aws:region:
+    value: ap-northeast-2
